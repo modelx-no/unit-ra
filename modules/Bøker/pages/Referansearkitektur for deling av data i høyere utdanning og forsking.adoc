@@ -1,0 +1,26 @@
+= Referansearkitektur for deling av data i høyere utdanning og forsking
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@drafts:Bøker:
+endif::[]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+
+
+image:{imagepath}image1.jpeg[]
+
+:leveloffset: +1
+include::master@drafts:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
+include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
+include::master@drafts:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
+include::master@drafts:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
+include::master@drafts:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+:leveloffset: -1
+
+image:{imagepath}image11.png[]

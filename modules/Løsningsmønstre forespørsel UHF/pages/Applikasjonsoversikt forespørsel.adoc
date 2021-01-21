@@ -1,0 +1,144 @@
+= Applikasjonsoversikt forespørsel
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@drafts:Løsningsmønstre forespørsel UHF:
+endif::[]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+== Applikasjonsoversikt forespørsel - oversikt
+
+
+
+.Applikasjonsoversikt forespørsel
+image::{imagepath}Applikasjonsoversikt forespørsel.png[alt=Applikasjonsoversikt forespørsel image]
+
+== UHF Infrastruktur
+
+
+
+=== Tokentjeneste
+
+Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
+
+=== Ressursportal
+
+
+
+==== UHF API manager 
+
+Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. Ansvaret til API manager inkluderer:
+ 
+* Sentralisert API administrasjon og forvaltning av API-katalogen
+* Håndtering av registrerings- og introduksjonsprosesser for API utviklere
+* Håndtere livssyklusen til et API
+
+
+Ivareta registrering, forvaltning og og utvikling av klientrettigheter
+
+Hva tilbyr API av datamodell
+Hvordan ønsker API å sikre seg selv
+En klient må forholde seg til 
+
+===== UHF API katalog
+
+Oversikt over alle API som er registrert 
+
+==== UHF Oauth2 autorisasjonstjener
+
+Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
+
+Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
+
+Per i dag er Scopes er grovkornet
+Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
+underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
+
+===== UHF Klientregister
+
+Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
+
+
+=== Registrere API i UHF sektoren
+
+
+
+=== UHF tildel rettigheter til klienter
+
+
+
+== UiX
+
+
+
+=== Kildedata
+
+
+
+=== API Gateway hos dataeier / OAuth resource server
+
+API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+
+
+Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
+
+*  Validere tilgangstoken
+*  Beskytte mot inntrenging og andre trusler
+• Håndtere volumbegrensninger og andre abonnementsordninger
+• Håndheve tilgangsstyring
+• Samle inn data om bruken av API-er
+• [orkestrering mellom interntjeneser??]
+
+Prinsipp fra Steiner:
+Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
+Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
+Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
+
+Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
+
+
+=== Kildedata
+
+
+
+== UiO
+
+
+
+=== Kildedata
+
+
+
+=== API Gateway hos dataeier / OAuth resource server
+
+API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+
+
+Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
+
+*  Validere tilgangstoken
+*  Beskytte mot inntrenging og andre trusler
+• Håndtere volumbegrensninger og andre abonnementsordninger
+• Håndheve tilgangsstyring
+• Samle inn data om bruken av API-er
+• [orkestrering mellom interntjeneser??]
+
+Prinsipp fra Steiner:
+Oppgaver både sikkerhetsperspektiv og forvaltningsperspektivet
+Dersom gatway skal stå for sikkerheten, MÅ VÆRE SIKKER PÅ at API ikke kan nås utenom gateway
+Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
+
+Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
+
+
+=== Kildedata
+
+
+
+
+

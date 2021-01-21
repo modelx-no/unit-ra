@@ -1,0 +1,66 @@
+= Kapabiliteter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+endif::[]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+image:{imagepath}image6.png[Diagram Description automatically
+generated,width=567,height=269]
+
+//Erik
+#Legge til tekst fra modellen som beskriver figuren#
+
+ 
+
+image:{imagepath}image7.png[Diagram Description automatically
+generated,width=567,height=325]
+
+ [Legge til tekst fra modellen som beskriver figuren]
+
+Som vist i figuren over, må datatilbyderen ha oversikt over egne data
+som skal deles og evne til å publisere datasettene slik at andre kan
+benytte disse. For at datadeling skal fungere etter hensikt, må dataene
+ha god kvalitet. Dette krever kapabiliteter innen
+informasjonsforvaltning.  Vi har modellert disse evner som
+«muliggjørende kapabiliteter» i referansearkitekturen for høyere
+utdanning og forskning med utgangspunkt i
+https://app.powerbi.com/view?r=eyJrIjoiMThhNjkzNmItOGQ4NC00MDkzLWI3MDQtNzY0ZjA1MjQ5MzViIiwidCI6ImFlMWE3NzI0LTQwNDEtNDQ2Mi1hNmRjLTUzOGNiMTk5NzA3ZSIsImMiOjh9[EUNIS
+sin kapabilitetsmodell for europeiske universiteter] som vist under. God
+informasjonsforvaltning støtter både opp om organisatorisk
+samhandlingsevne gjennom å gi organisasjoner riktig data av god kvalitet
+og støtter opp om semantisk samhandlingsevne ved å klargjøre dataenes
+betydning. Vi velger også å synliggjøre juridiske tjenester som
+muliggjørende kapabilitet for å støtte opp under juridisk
+samhandlingsevne.
+
+//Erik
+//#Archimate viewet heter Muliggjørende kapabiliteter]#
+
+image:{imagepath}image8.png[image,width=567,height=122]
+
+Informasjonen som skal forvaltes finnes i en faglig kontekst som vi
+kaller «domener». Fageksperter bør ha eierskap til begrepsdefinisjoner
+innen egen domene. Domenene bør også være ansvarlig for forvaltning av
+egen informasjon. Vi har benyttet EUNIS kapabilitetsmodellen som kilde
+til definisjon av fagdomener der ansvar for forvaltning av informasjon
+skal være.
+
+//Erik
+//#Archimate viewet heter informasjonsforvaltningsdomener#
+
+image:{imagepath}image9.png[image,width=567,height=233]
+
+// erik: 
+#Legge til tekst fra modellen som beskriver figuren#
+
+:leveloffset: +1
+include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Muliggjørende kapabiliteter.adoc[]
+include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Informasjonsforvaltningsdomener.adoc[]
+:leveloffset: -1

@@ -1,0 +1,20 @@
+= Kapabiliteter
+:wysiwig_editing: 1
+ifeval::[{wysiwig_editing} == 1]
+:imagepath: ../images/
+endif::[]
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: master@drafts:Kapabiliteter:
+endif::[]
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 9
+
+== Om Kapabiliteter
+Beskrivelse av Kapabiliteter... (direkte i representation-objektet)
+
+:leveloffset: +1
+include::master@drafts:Kapabiliteter:page$Informasjonsforvaltningsdomener.adoc[]
+include::master@drafts:Kapabiliteter:page$Muliggjørende kapabiliteter.adoc[]
+:leveloffset: -1
