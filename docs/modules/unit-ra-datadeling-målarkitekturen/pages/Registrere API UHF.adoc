@@ -11,7 +11,10 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-undefined
+En arbeidsflyt som datatilbyder må gjennomføre for å gjøre et API synlig og tilgjengelig gjennom kataloger og søkeløsninger. Metadata om APIet blir registrert i API-katalogen. Metadata inkluderer begreper og datamodeller omfattet av datasettet som APIet tilgjengeliggjør, samt tilganger (scopes) knyttet til APIet som kan tildeles konsumenter.
+
+Kanskje omdøpe kapabiliteten til "Publiser API"
+
 
 .Registrere API UHF
 image::{imagepath}Registrere API UHF.png[alt=Registrere API UHF image]

@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-undefined
+
 
 .Applikasjonsoversikt forespørsel integrert med IAM
 image::{imagepath}Applikasjonsoversikt forespørsel integrert med IAM.png[alt=Applikasjonsoversikt forespørsel integrert med IAM image]

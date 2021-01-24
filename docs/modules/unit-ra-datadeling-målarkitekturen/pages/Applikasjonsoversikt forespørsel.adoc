@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-undefined
+
 
 .Applikasjonsoversikt forespørsel
 image::{imagepath}Applikasjonsoversikt forespørsel.png[alt=Applikasjonsoversikt forespørsel image]

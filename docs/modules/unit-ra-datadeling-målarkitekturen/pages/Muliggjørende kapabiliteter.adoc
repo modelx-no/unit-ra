@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-undefined
+View narrative...
 
 .Muliggjørende kapabiliteter
 image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabiliteter image]

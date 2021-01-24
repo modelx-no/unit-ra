@@ -11,7 +11,8 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-undefined
+En arbeidsflyt en konsument utfører når det utføres et tjenestekall for å innhente data gjennom et API. API-adressen hentes i API-katalogen. Tilgang til APIet byttes inn mot et kjøretids-token i autoriseringstjenesten. Tjenestekall til APIet utføres gjennom API gateway der tokenet benyttes for å få tilgang. Dersom det er et åpent API er det kun relevante prossessteg som utføres.
+
 
 .Innhente data - løsningsmønster UHF
 image::{imagepath}Innhente data - løsningsmønster UHF.png[alt=Innhente data - løsningsmønster UHF image]
