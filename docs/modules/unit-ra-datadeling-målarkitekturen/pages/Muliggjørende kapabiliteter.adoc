@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-View narrative...
+Informasjonen som skal forvaltes finnes i en faglig kontekst som vi kaller «domener». Fageksperter bør ha eierskap til begrepsdefinisjoner innen egen domene. Domenene bør også være ansvarlig for forvaltning av egen informasjon. Vi har benyttet EUNIS kapabilitetsmodellen som kilde til definisjon av fagdomener der ansvar for forvaltning av informasjon skal være.
 
 .Muliggjørende kapabiliteter
 image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabiliteter image]
