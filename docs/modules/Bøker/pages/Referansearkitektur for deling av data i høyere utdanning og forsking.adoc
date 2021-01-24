@@ -24,3 +24,4 @@ include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avkla
 :leveloffset: -1
 
 image:{imagepath}image11.png[]
+
