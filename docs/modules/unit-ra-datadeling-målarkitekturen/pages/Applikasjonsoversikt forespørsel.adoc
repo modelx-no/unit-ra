@@ -25,16 +25,16 @@ image::{imagepath}Applikasjonsoversikt forespørsel.png[alt=Applikasjonsoversikt
 | Element
 | Beskrivelse
 
-| UHF Infrastruktur
+| UHF Infrastruktur <grouping>
 | 
 
-| Tokentjeneste
+| Tokentjeneste <application-service>
 | Tjeneste som utsteder sikkerhetsbilletter. Sikkerhetsbillett utstedes basert på tildelte rettigheter og eventuelle representasjonsforhold.
 
-| Ressursportal
+| Ressursportal <application-component>
 | 
 
-| UHF Oauth2 autorisasjonstjener
+| UHF Oauth2 autorisasjonstjener <application-component>
 | Autorisasjonstjeneter realiserer tilgangskontroll gjennom å utstede OpenID Connect eller OAuth 2 grants og tokens. En autorisasjonstjener er også brukt til å realisere tilgangs policy. 
 
 Scope (rettighet) og Audience (identifikator eller ressurs-server f. eks. FS)
@@ -43,11 +43,11 @@ Per i dag er Scopes er grovkornet
 Rich authorization requsts (ny spesifikasjon) for å utvide scope begrep i IETF
 underenhet og behandlingssted, behandlingsgrunnlag og roller jobbes det med.
 
-| UHF Klientregister
+| UHF Klientregister <application-component>
 | Oversikt over alle klienter som er blitt tildelt tilgang til ressurser.
 
 
-| UHF API manager 
+| UHF API manager  <application-component>
 | Administrativ komponent som kontrollerer policy og livssyklus for definisjon og forvaltning av API. Tilganger gjennom et API defineres i API manager og tildeles av autorisasjonstjener. Ansvaret til API manager inkluderer:
  
 * Sentralisert API administrasjon og forvaltning av API-katalogen
@@ -61,22 +61,22 @@ Hva tilbyr API av datamodell
 Hvordan ønsker API å sikre seg selv
 En klient må forholde seg til 
 
-| UHF API katalog
+| UHF API katalog <application-component>
 | Oversikt over alle API som er registrert 
 
-| Registrere API i UHF sektoren
+| Registrere API i UHF sektoren <application-service>
 | 
 
-| UHF tildel rettigheter til klienter
+| UHF tildel rettigheter til klienter <application-service>
 | 
 
-| UiX
+| UiX <grouping>
 | 
 
-| Kildedata
+| Kildedata <data-object>
 | 
 
-| API Gateway hos dataeier / OAuth resource server
+| API Gateway hos dataeier / OAuth resource server <application-component>
 | API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
 
@@ -97,16 +97,16 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
 
-| Kildedata
+| Kildedata <data-object>
 | 
 
-| UiO
+| UiO <grouping>
 | 
 
-| Kildedata
+| Kildedata <data-object>
 | 
 
-| API Gateway hos dataeier / OAuth resource server
+| API Gateway hos dataeier / OAuth resource server <application-component>
 | API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
 
@@ -127,7 +127,7 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
 
-| Kildedata
+| Kildedata <data-object>
 | 
 
 |===

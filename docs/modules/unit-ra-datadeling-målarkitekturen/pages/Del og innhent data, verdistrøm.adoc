@@ -25,7 +25,7 @@ image::{imagepath}Del og innhent data, verdistrøm.png[alt=Del og innhent data, 
 | Element
 | Beskrivelse
 
-| Datatilbyder
+| Datatilbyder <business-role>
 | Tilbyder av data til andre aktører.
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
@@ -35,52 +35,52 @@ Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene
 Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
 
 
-| Del  data
+| Del  data <value-stream>
 | 
 
-| Tilrettelegg for dataoppdagelse og datadeling
+| Tilrettelegg for dataoppdagelse og datadeling <value-stream>
 | 
 
-| Avgi data
-| 
-
-
-| Sett opp avtaler, løsninger og tilganger etter henvendelse
-| 
-
-| Motta henvendelser om datadeling
-| 
-
-| Ta rede på egne data og krav til datadeling
+| Avgi data <value-stream>
 | 
 
 
-
-| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder)
+| Sett opp avtaler, løsninger og tilganger etter henvendelse <value-stream>
 | 
 
-| Data-konsument
+| Motta henvendelser om datadeling <value-stream>
+| 
+
+| Ta rede på egne data og krav til datadeling <value-stream>
+| 
+
+
+
+| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder) <value-stream>
+| 
+
+| Data-konsument <business-role>
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Innhent data
+| Innhent data <value-stream>
 | 
 
-| Oppdag data og datakilder
+| Oppdag data og datakilder <value-stream>
 | 
 
-| Be  om tilganger og abonnementer
+| Be  om tilganger og abonnementer <value-stream>
 | 
 
-| Forespør og motta data
+| Forespør og motta data <value-stream>
 | 
 
-| Etabler avtaler og løsninger for datainnhenting
+| Etabler avtaler og løsninger for datainnhenting <value-stream>
 | 
 
-| Ta rede på behov for innhenting av data
+| Ta rede på behov for innhenting av data <value-stream>
 | 
 
-| Forbedre løsninger, sikkerhet og datakvalitet (konsument)
+| Forbedre løsninger, sikkerhet og datakvalitet (konsument) <value-stream>
 | 
 
 |===
