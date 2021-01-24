@@ -26,7 +26,7 @@ image::{imagepath}Muliggjørende kapabiliteter.png[alt=Muliggjørende kapabilite
 | Beskrivelse
 
 | Muliggjørende kapabiliteter
-| AKSJON: NTNU oppdaterer definisjon
+| #AKSJON: NTNU oppdaterer definisjon#
 
 Hva organisasjonen gjør for å sikre at den fremmer og forbedrer sin profil og omdømme regionalt, nasjonalt og internasjonalt. Gjennom publisering av forskning og kompetanse, prestasjoner og oppnåelser til en rekke medier og nettverk, samtidig som de reagerer på direkte henvendelser fra pressen, og maksimerer positiv dekning i media.
 
