@@ -4,32 +4,37 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
 :toclevels: 3
 :sectnums:
 :sectnumlevels: 9
 
-== Avgi data - løsningsmønster UHF - oversikt
-
 undefined
 
 .Avgi data - løsningsmønster UHF
 image::{imagepath}Avgi data - løsningsmønster UHF.png[alt=Avgi data - løsningsmønster UHF image]
 
-== Egen autorisasjons-komponent
 
-Komponent for å håndheve virksomhetens regler for tilgang. 
+
+[cols ="1,3", options="header"]
+.Elementer i view for Avgi data - løsningsmønster UHF
+|===
+
+| Element
+| Beskrivelse
+
+| Egen autorisasjons-komponent
+| Komponent for å håndheve virksomhetens regler for tilgang. 
 Også kalt policy enforcement point (PEP).
 
-== Altinn autorisasjon
-
-[Torget]
+| Altinn autorisasjon
+| Torget:
 Autorisasjonskomponenten i Altinn som gir muligheter til å delegere rettigheter til andre organisasjoner eller personer. Rettigheter til bruk av autorisasjonskomponenten baserer seg på registrerte roller i Enhetsregisteret.
 Altinn autorisasjon leverer også tjenester for å registrere og kontrollere samtykke gitt av person eller virksomhet.
 
-[Verktøykasse for deling av data]
+Verktøykasse for deling av data:
 Altinn autorisasjon gir teknisk samhandlingsevne ved at bruker logger inn med elektronisk ID,
 autorisasjonskomponenten sjekker at bruker har de tilgangene som kreves for å ta i bruk aktuell tjeneste.
 
@@ -39,9 +44,8 @@ Mer om Altinn autorisasjon:
 https://www.altinndigital.no/produkter/styring-av-tilgang/
 
 
-== Datatilbyder
-
-Tilbyder av data til andre aktører.
+| Datatilbyder
+| Tilbyder av data til andre aktører.
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
 
@@ -50,50 +54,39 @@ Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene
 Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
 
 
-== Tilgangskontroll-tjeneste
-
-Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester. Disse rettigheter kan være mer finkornet enn tilgangene administrert av autorisasjonstjeneren.
+| Tilgangskontroll-tjeneste
+| Tjeneste for å sjekke rettigheter til data. Kan være eksterne eller interne tjenester. Disse rettigheter kan være mer finkornet enn tilgangene administrert av autorisasjonstjeneren.
 Eksempler på rettigheter kan komme av samtykker fra person eller virksomhet, eller rollebasert fra vergemål, familierelasjon el.
 
-== Avgi forespurte data gjennom API
+| Avgi forespurte data gjennom API
+| Prosessen med å avgi data på forespørsel gjennom et egnet API.
 
-Prosessen med å avgi data på forespørsel gjennom et egnet API.
+| Motta  forespørsel om oppslag
+| Motta forespørsler fra API-konsument om å avgi data.
 
-=== Motta  forespørsel om oppslag
+| Avgi data
+| Prosessen med å gi svar på forespørselen.
 
-Motta forespørsler fra API-konsument om å avgi data.
+| Kontroller tilgang
+| Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
 
-=== Avgi data
+| Autentisere konsument
+| Prosessen med å autentisere en konsument.
 
-Prosessen med å gi svar på forespørselen.
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
-=== Autentisere konsument
+| Datautvekslings-tjeneste
+| Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
 
-Prosessen med å autentisere en konsument.
+| Tokenvaliderings-tjeneste
+| Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
 
-=== Kontroller tilgang
+| Avgi data
+| Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
 
-Kontroll og håndheving av konsumentens rettigheter til å få forespurte data.  I tillegg til "validering av sikkerhetsbillet", kan det være behov for kontroll mot virksomhetsinterne policies.
-
-== Datautvekslings-tjeneste
-
-Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
-
-== Datautvekslings-tjeneste
-
-Tjeneste for utveksling av data over aktuell transportprotokoll, f.eks, gjennom asynkrone medlinger eller synkrone API-oppslag.
-
-== Tokenvaliderings-tjeneste
-
-Tjeneste som benyttes av tilbyder for å validere og kontrollere autentisiteten til et OAUTH2 token fra Maskinporten
-
-== Avgi data
-
-Evne til å avgi data på forespørsel. Kan omfatte tilgangsstyring.
-
-== API Gateway hos dataeier / OAuth resource server
-
-API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
+| API Gateway hos dataeier / OAuth resource server
+| API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
 
 Komponent som beskytter ressursene og monitorerer tilgang inklusivt:
@@ -113,5 +106,5 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
 
-
+|===
 

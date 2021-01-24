@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -61,6 +61,6 @@ image:{imagepath}image9.png[image,width=567,height=233]
 #Legge til tekst fra modellen som beskriver figuren#
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Muliggjørende kapabiliteter.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Informasjonsforvaltningsdomener.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Muliggjørende kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Informasjonsforvaltningsdomener.adoc[]
 :leveloffset: -1

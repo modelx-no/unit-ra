@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:Bøker:
+:imagepath: main@unit-ra:Bøker:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -16,11 +16,11 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
-include::master@drafts:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
-include::master@drafts:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
-include::master@drafts:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
+include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
+include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
+include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 :leveloffset: -1
 
 image:{imagepath}image11.png[]

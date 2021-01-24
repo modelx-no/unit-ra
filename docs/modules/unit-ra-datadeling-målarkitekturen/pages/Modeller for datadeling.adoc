@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -37,5 +37,5 @@ verdistrømmen for datadeling og relaterte kapabiliteter #avbildet under#
 er uendret.
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Del og innhent data, verdistrøm.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Del og innhent data, verdistrøm.adoc[]
 :leveloffset: -1

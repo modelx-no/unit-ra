@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-forvaltning:
+:imagepath: main@unit-ra:unit-ra-datadeling-forvaltning:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -14,6 +14,6 @@ endif::[]
 
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-forvaltning:page$Forutsetninger for arbeid med definisjon av datasett og API.adoc[]
-include::master@drafts:unit-ra-datadeling-forvaltning:page$Rutinen for nye brukernære behov.adoc[]
+include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forutsetninger for arbeid med definisjon av datasett og API.adoc[]
+include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Rutinen for nye brukernære behov.adoc[]
 :leveloffset: -1

@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -16,6 +16,6 @@ https://nasjonal-arkitektur.github.io/architecture-repository/data-exchange-ra/b
 for datautveksling] beskriv de mønstrene som vi bruker
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved oppslag.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved publisering – konsumering (hendelsesbasert).adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved oppslag.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling ved publisering – konsumering (hendelsesbasert).adoc[]
 :leveloffset: -1

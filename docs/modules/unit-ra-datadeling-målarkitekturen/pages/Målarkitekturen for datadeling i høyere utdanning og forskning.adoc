@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-målarkitekturen:
+:imagepath: main@unit-ra:unit-ra-datadeling-målarkitekturen:
 endif::[]
 :toc: left
 :toclevels: 3
@@ -14,11 +14,11 @@ endif::[]
 
 
 :leveloffset: +1
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Om arkitekturprinsippenes føringer for datadeling.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Hva er datadeling.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Modeller for datadeling.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Kapabiliteter.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
-include::master@drafts:unit-ra-datadeling-målarkitekturen:page$Integrasjonsmønster for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Om arkitekturprinsippenes føringer for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Hva er datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Modeller for datadeling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Kapabiliteter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Felleskomponenter.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datautveksling.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Integrasjonsmønster for datadeling.adoc[]
 :leveloffset: -1

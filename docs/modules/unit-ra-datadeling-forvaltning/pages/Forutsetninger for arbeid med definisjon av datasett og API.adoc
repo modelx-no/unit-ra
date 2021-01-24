@@ -4,7 +4,7 @@ ifeval::[{wysiwig_editing} == 1]
 :imagepath: ../images/
 endif::[]
 ifeval::[{wysiwig_editing} == 0]
-:imagepath: master@drafts:unit-ra-datadeling-forvaltning:
+:imagepath: main@unit-ra:unit-ra-datadeling-forvaltning:
 endif::[]
 :toc: left
 :toclevels: 3
