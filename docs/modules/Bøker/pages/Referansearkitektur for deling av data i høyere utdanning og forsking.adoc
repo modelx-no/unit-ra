@@ -7,7 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:Bøker:
 endif::[]
 :toc: left
-:toclevels: 5
+:toclevels: 4
 :sectnums:
 :sectnumlevels: 9
 
@@ -22,8 +22,6 @@ include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målark
 include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 :leveloffset: -1
-
-ifeval::[{wysiwig_editing} == 0]
-:imagepath: main@unit-ra:Bøker:
-endif::[]
+undefined
 image:{imagepath}image11.png[]
+

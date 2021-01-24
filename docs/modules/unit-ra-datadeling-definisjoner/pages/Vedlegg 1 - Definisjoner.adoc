@@ -7,7 +7,7 @@ ifeval::[{wysiwig_editing} == 0]
 :imagepath: main@unit-ra:unit-ra-datadeling-definisjoner:
 endif::[]
 :toc: left
-:toclevels: 5
+:toclevels: 4
 :sectnums:
 :sectnumlevels: 9
 
