@@ -23,6 +23,7 @@ include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjo
 include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 :leveloffset: -1
 
-Test
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:Bøker:
+endif::[]
 image:{imagepath}image11.png[]
-Test
