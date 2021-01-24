@@ -22,6 +22,10 @@ include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målark
 include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
 :leveloffset: -1
-undefined
+
+ifeval::[{wysiwig_editing} == 0]
+:imagepath: main@unit-ra:Bøker:
+endif::[]
+
 image:{imagepath}image11.png[]
 
