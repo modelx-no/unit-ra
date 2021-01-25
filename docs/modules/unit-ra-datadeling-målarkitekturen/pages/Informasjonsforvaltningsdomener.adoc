@@ -25,41 +25,23 @@ image::{imagepath}Informasjonsforvaltningsdomener.png[alt=Informasjonsforvaltnin
 | Element
 | Beskrivelse
 
-| Forskning <capability>
-| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere forskning.
+| Informasjonsforvaltningsdomener <grouping>
+| 
 
-EUNIS: Research
+| Strategi og styring <capability>
+| Hva organisasjonen gjør for å utvikle og opprettholde et sammenhengende bilde av fremtiden
 
-| Forskningsfinansiering <capability>
-| Alle aktiviteter rettet mot å skaffe og forvalte midler til å gjennomføre forskningsprosjekter.
-
-EUNIS: Research funding
-
-| Forskningsforvaltning og prioritering <capability>
-| Hva organisasjonen gjør for å forvalte resultatene fra forskningsprosjekter, inkludert bevaring utover levetiden til enkeltprosjekter.
-
-EUNIS: Output Management
-
-| Forskningsproduksjon <capability>
-| Alle aktiviteter rettet mot å gjennomføre og levere selve forskningen.
-
-EUNIS: Research Delivery
-
-| Forskningsproduksjon <capability>
-| Hva organisasjonen gjør for å produsere forskning. Dette er utførelsen av forskningsprosjektet.
-
-| Forskningspublisering <capability>
-| Alle aktiviteter rettet mot å publisere forskningsresultater og rapportere resultater.
+EUNIS: Strategy and Governance 
 
 | Kommersiell aktivitet <capability>
 | Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere kommersiell aktivitet.
 
 EUNIS: Commerical activity
 
-| Kurratering av forskningsdata  <capability>
-| Hva organisasjonen gjør for å lagre, dele, bruke og gjenbruke datasett produsert fra forskningsprosjekter, inkludert datasettstyringsplanlegging og kuratering av datasett utover levetiden til enkeltprosjekter.
+| Undervisning og læring <capability>
+| Alle kapabiliteter som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere undervisning og læring og studentopplevelsen.
 
-EUNIS: Dataset management
+EUNIS: Teaching and learning
 
 | Leveranse av undervisning og læring <capability>
 | AKSJON: NTNU kommer med oppdatert forslag
@@ -68,23 +50,10 @@ Hva organisasjonen gjør for å velge, allokere og administrere plassering av st
 
 EUNIS: Teaching and Learning Delivery
 
-| Publiseringsforvaltning <capability>
-| Hva organisasjonen gjør for å publisere og fremme forskningsresultater, og administrere publikasjonssamlingene sine helhetlig for å maksimere virkningen av dem.
+| Undervisnings- og læringsinnhold <capability>
+| AKSJON: NTNU - Teaching and learning content - NTNU sier "" ?? - mangler?
 
-EUNIS: Publication Management
-
-| Rapportering av forskningsresultater <capability>
-| Hva organisasjonen gjør for å utvikle og produsere rapporter om forskningsresultater, inkludert de som er nødvendige for å oppfylle kravene fra finansieringsorganer.
-
-EUNIS: Output Reporting
-
-| Strategi og styring <capability>
-| Hva organisasjonen gjør for å utvikle og opprettholde et sammenhengende bilde av fremtiden
-
-EUNIS: Strategy and Governance 
-
-| Student-vurdering <capability>
-| AKSJON: NTNU kommer med definisjon
+EUNIS: Teaching and Learning Content
 
 | Studieadministrasjon <capability>
 | Alle aktiviteter som er rettet mot å håndtere faglige retningslinjer, forskrifter, planlegging og tilhørende tilbakemeldinger fra kunder.
@@ -96,18 +65,49 @@ EUNIS: Student Administration
 
 EUNIS: Curriculum Management
 
-| Undervisning og læring <capability>
-| Alle kapabiliteter som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere undervisning og læring og studentopplevelsen.
+| Student-vurdering <capability>
+| AKSJON: NTNU kommer med definisjon
 
-EUNIS: Teaching and learning
+| Forskning <capability>
+| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere forskning.
 
-| Undervisnings- og læringsinnhold <capability>
-| AKSJON: NTNU - Teaching and learning content - NTNU sier "" ?? - mangler?
+EUNIS: Research
 
-EUNIS: Teaching and Learning Content
+| Forskningsproduksjon <capability>
+| Alle aktiviteter rettet mot å gjennomføre og levere selve forskningen.
 
-| Informasjonsforvaltningsdomener <grouping>
-| 
+EUNIS: Research Delivery
+
+| Kurratering av forskningsdata  <capability>
+| Hva organisasjonen gjør for å lagre, dele, bruke og gjenbruke datasett produsert fra forskningsprosjekter, inkludert datasettstyringsplanlegging og kuratering av datasett utover levetiden til enkeltprosjekter.
+
+EUNIS: Dataset management
+
+| Forskningsforvaltning og prioritering <capability>
+| Hva organisasjonen gjør for å forvalte resultatene fra forskningsprosjekter, inkludert bevaring utover levetiden til enkeltprosjekter.
+
+EUNIS: Output Management
+
+| Forskningsproduksjon <capability>
+| Hva organisasjonen gjør for å produsere forskning. Dette er utførelsen av forskningsprosjektet.
+
+| Forskningspublisering <capability>
+| Alle aktiviteter rettet mot å publisere forskningsresultater og rapportere resultater.
+
+| Rapportering av forskningsresultater <capability>
+| Hva organisasjonen gjør for å utvikle og produsere rapporter om forskningsresultater, inkludert de som er nødvendige for å oppfylle kravene fra finansieringsorganer.
+
+EUNIS: Output Reporting
+
+| Publiseringsforvaltning <capability>
+| Hva organisasjonen gjør for å publisere og fremme forskningsresultater, og administrere publikasjonssamlingene sine helhetlig for å maksimere virkningen av dem.
+
+EUNIS: Publication Management
+
+| Forskningsfinansiering <capability>
+| Alle aktiviteter rettet mot å skaffe og forvalte midler til å gjennomføre forskningsprosjekter.
+
+EUNIS: Research funding
 
 |===
 
