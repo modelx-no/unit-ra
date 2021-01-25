@@ -1,5 +1,5 @@
 name: unit-ra
-title: UNIT referansearkitekturer
+title: Referansearkitektur for deling av data i høyere utdanning og forsking
 version: main
 start_page: ROOT:index.adoc 
 nav:
