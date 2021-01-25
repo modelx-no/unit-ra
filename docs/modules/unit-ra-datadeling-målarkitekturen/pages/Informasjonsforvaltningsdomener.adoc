@@ -25,5 +25,89 @@ image::{imagepath}Informasjonsforvaltningsdomener.png[alt=Informasjonsforvaltnin
 | Element
 | Beskrivelse
 
+| Forskning <capability>
+| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere forskning.
+
+EUNIS: Research
+
+| Forskningsfinansiering <capability>
+| Alle aktiviteter rettet mot å skaffe og forvalte midler til å gjennomføre forskningsprosjekter.
+
+EUNIS: Research funding
+
+| Forskningsforvaltning og prioritering <capability>
+| Hva organisasjonen gjør for å forvalte resultatene fra forskningsprosjekter, inkludert bevaring utover levetiden til enkeltprosjekter.
+
+EUNIS: Output Management
+
+| Forskningsproduksjon <capability>
+| Alle aktiviteter rettet mot å gjennomføre og levere selve forskningen.
+
+EUNIS: Research Delivery
+
+| Forskningsproduksjon <capability>
+| Hva organisasjonen gjør for å produsere forskning. Dette er utførelsen av forskningsprosjektet.
+
+| Forskningspublisering <capability>
+| Alle aktiviteter rettet mot å publisere forskningsresultater og rapportere resultater.
+
+| Kommersiell aktivitet <capability>
+| Alle egenskaper som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere kommersiell aktivitet.
+
+EUNIS: Commerical activity
+
+| Kurratering av forskningsdata  <capability>
+| Hva organisasjonen gjør for å lagre, dele, bruke og gjenbruke datasett produsert fra forskningsprosjekter, inkludert datasettstyringsplanlegging og kuratering av datasett utover levetiden til enkeltprosjekter.
+
+EUNIS: Dataset management
+
+| Leveranse av undervisning og læring <capability>
+| AKSJON: NTNU kommer med oppdatert forslag
+
+Hva organisasjonen gjør for å velge, allokere og administrere plassering av studenter i lærings- og praksismiljøer utenfor organisasjonen som en del av læreplanen.
+
+EUNIS: Teaching and Learning Delivery
+
+| Publiseringsforvaltning <capability>
+| Hva organisasjonen gjør for å publisere og fremme forskningsresultater, og administrere publikasjonssamlingene sine helhetlig for å maksimere virkningen av dem.
+
+EUNIS: Publication Management
+
+| Rapportering av forskningsresultater <capability>
+| Hva organisasjonen gjør for å utvikle og produsere rapporter om forskningsresultater, inkludert de som er nødvendige for å oppfylle kravene fra finansieringsorganer.
+
+EUNIS: Output Reporting
+
+| Strategi og styring <capability>
+| Hva organisasjonen gjør for å utvikle og opprettholde et sammenhengende bilde av fremtiden
+
+EUNIS: Strategy and Governance 
+
+| Student-vurdering <capability>
+| AKSJON: NTNU kommer med definisjon
+
+| Studieadministrasjon <capability>
+| Alle aktiviteter som er rettet mot å håndtere faglige retningslinjer, forskrifter, planlegging og tilhørende tilbakemeldinger fra kunder.
+
+EUNIS: Student Administration
+
+| Studieplanlegging <capability>
+| Alle aktiviteter rettet mot lærere og administratorer som samarbeider om opprettelse, utvikling, konstruksjon, gjennomgang, godkjenning, vurdering og foredling av pensuminnhold for å oppnå ønskede studentresultater.
+
+EUNIS: Curriculum Management
+
+| Undervisning og læring <capability>
+| Alle kapabiliteter som kreves for å sikre at organisasjonen er i stand til å utvikle, levere, støtte og administrere undervisning og læring og studentopplevelsen.
+
+EUNIS: Teaching and learning
+
+| Undervisnings- og læringsinnhold <capability>
+| AKSJON: NTNU - Teaching and learning content - NTNU sier "" ?? - mangler?
+
+EUNIS: Teaching and Learning Content
+
+| Informasjonsforvaltningsdomener <grouping>
+| 
+
 |===
 
