@@ -15,12 +15,12 @@ endif::[]
 
 image:{imagepath}image1.jpeg[]
 
-undefined 
-1612040015978
+
+----2021-0-6 22:6
 Author: Erik Hagen; email: erik.hagen@digdir.no
 
-
-Om denne boken...
+----
+_Om denne boken..._
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
