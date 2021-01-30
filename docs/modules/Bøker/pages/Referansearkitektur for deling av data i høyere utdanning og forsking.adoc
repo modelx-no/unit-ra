@@ -17,10 +17,8 @@ image:{imagepath}image1.jpeg[]
 
 
 
-
 Erik Hagen; email: erik.hagen@digdir.no
-
-Sat Jan 30 2021 22:28:38 GMT+0100 (CET)
+Sat Jan 30 2021 23:37:58 GMT+0100 (CET)
 
 Om denne boken...
 
