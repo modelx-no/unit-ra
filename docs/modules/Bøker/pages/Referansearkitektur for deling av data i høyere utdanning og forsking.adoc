@@ -16,7 +16,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-== Om Referansearkitektur for deling av data i høyere utdanning og forsking
+ Om Referansearkitektur for deling av data i høyere utdanning og forsking
 
 Om denne boken...
 
