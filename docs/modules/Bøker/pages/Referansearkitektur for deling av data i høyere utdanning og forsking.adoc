@@ -15,7 +15,10 @@ endif::[]
 
 image:{imagepath}image1.jpeg[]
 
-undefined Om Referansearkitektur for deling av data i høyere utdanning og forsking
+undefined 
+1612040015978
+Author: Erik Hagen; email: erik.hagen@digdir.no
+
 
 Om denne boken...
 
