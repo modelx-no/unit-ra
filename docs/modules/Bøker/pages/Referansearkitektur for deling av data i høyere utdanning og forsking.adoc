@@ -16,10 +16,10 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-----2021-0-6 22:6
+2021-0-6 22:8
 Author: Erik Hagen; email: erik.hagen@digdir.no
 
-----
+
 _Om denne boken..._
 
 :leveloffset: +1
