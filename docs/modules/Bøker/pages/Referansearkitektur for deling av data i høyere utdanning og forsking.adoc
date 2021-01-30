@@ -16,12 +16,13 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-Sat Jan 30 2021 22:24:31 GMT+0100 (CET)
+
 
 Erik Hagen; email: erik.hagen@digdir.no
 
+Sat Jan 30 2021 22:28:38 GMT+0100 (CET)
 
-_Om denne boken..._
+Om denne boken...
 
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
