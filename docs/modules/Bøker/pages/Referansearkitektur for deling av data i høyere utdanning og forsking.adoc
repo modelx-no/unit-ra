@@ -16,9 +16,9 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
+Sun Jan 31 2021 02:40:17 GMT+0100 (CET)
+Erik Hagen 	erik.hagen@digdir.no
 
-Erik Hagen; email: erik.hagen@digdir.no
-Sun Jan 31 2021 02:38:06 GMT+0100 (CET)
 
 Om denne boken...
 
