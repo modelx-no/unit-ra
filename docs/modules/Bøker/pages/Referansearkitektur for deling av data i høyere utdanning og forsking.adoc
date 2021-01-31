@@ -16,9 +16,11 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-Sun Jan 31 2021 18:09:29 GMT+0100 (CET)
+Sun Jan 31 2021 18:11:22 GMT+0100 (CET)
 
 Erik Hagen 	erik.hagen@digdir.no
+
+
 :leveloffset: +1
 include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
 include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
