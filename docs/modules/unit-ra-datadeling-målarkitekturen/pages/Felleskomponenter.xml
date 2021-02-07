@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="4"?>
+<?asciidoc-numbered maxdepth="9"?>
+<article xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="en">
+<info>
+<title>Felleskomponenter</title>
+<date>2021-02-06</date>
+</info>
+<simpara><emphasis role="marked">(i sektoren hittil har «felles» betyd både at alle bruker samme instans,
+eller at alle har identiske instanser – vi må presisere hva som er
+hva etter hvert)</emphasis></simpara>
+<simpara> </simpara>
+<simpara>Innledende tekst om hva slags funksjonalitet vi trenger i
+felleskomponenter og hvorfor, motivert fra kapabilitetene over.</simpara>
+<simpara><emphasis role="marked">Jeg har laget et Archimate view som heter «Felleskomponenter»,
+men jeg vil ikke ha bildet, bare teksten som står i beskrivelse av
+kompontenene</emphasis></simpara>
+<itemizedlist>
+<listitem>
+<simpara>Autentiseringstjeneste​</simpara>
+</listitem>
+<listitem>
+<simpara>API manager​</simpara>
+</listitem>
+<listitem>
+<simpara>API katalog / datakatalog ​</simpara>
+</listitem>
+<listitem>
+<simpara>API gateway​</simpara>
+</listitem>
+<listitem>
+<simpara>Autorisasjonstjeneste / Nøkkelutsteder ​</simpara>
+</listitem>
+<listitem>
+<simpara>Klient register​</simpara>
+</listitem>
+<listitem>
+<simpara>Identity Governance Administration (IGA)​</simpara>
+</listitem>
+</itemizedlist>
+<simpara><emphasis role="marked">Heidi NB: mangler komponenter for hendelsesstrømming/-publisering</emphasis></simpara>
+</article>
