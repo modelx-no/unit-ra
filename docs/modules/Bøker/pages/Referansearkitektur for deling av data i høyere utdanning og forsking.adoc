@@ -16,7 +16,7 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 
-Sun Feb 07 2021 01:03:10 GMT+0100 (CET)
+Wed Feb 10 2021 00:36:14 GMT+0100 (CET)
 
 Erik Hagen 	erik.hagen@digdir.no
 

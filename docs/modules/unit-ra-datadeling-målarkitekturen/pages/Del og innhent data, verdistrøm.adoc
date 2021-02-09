@@ -11,7 +11,7 @@ endif::[]
 :sectnums:
 :sectnumlevels: 9
 
-#TODO (Erik): Beskrivelse av Del og innhent data, verdistrøm + hvert steg#
+
 
 .Del og innhent data, verdistrøm
 image::{imagepath}Del og innhent data, verdistrøm.png[alt=Del og innhent data, verdistrøm image]
