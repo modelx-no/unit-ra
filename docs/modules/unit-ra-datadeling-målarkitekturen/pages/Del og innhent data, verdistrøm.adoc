@@ -25,7 +25,7 @@ image::{imagepath}Del og innhent data, verdistrøm.png[alt=Del og innhent data, 
 | Element
 | Beskrivelse
 
-| Datatilbyder <business-role>
+| Datatilbyder
 | Tilbyder av data til andre aktører.
 
 API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
@@ -35,52 +35,52 @@ Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene
 Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
 
 
-| Del  data <value-stream>
+| Del  data
 | 
 
-| Tilrettelegg for dataoppdagelse og datadeling <value-stream>
+| Tilrettelegg for dataoppdagelse og datadeling
 | 
 
-| Avgi data <value-stream>
-| 
-
-
-| Sett opp avtaler, løsninger og tilganger etter henvendelse <value-stream>
-| 
-
-| Motta henvendelser om datadeling <value-stream>
-| 
-
-| Ta rede på egne data og krav til datadeling <value-stream>
+| Avgi data
 | 
 
 
-
-| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder) <value-stream>
+| Sett opp avtaler, løsninger og tilganger etter henvendelse
 | 
 
-| Data-konsument <business-role>
+| Motta henvendelser om datadeling
+| 
+
+| Ta rede på egne data og krav til datadeling
+| 
+
+
+
+| Forbedre løsninger, sikkerhet og datakvalitet (tilbyder)
+| 
+
+| Data-konsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Innhent data <value-stream>
+| Innhent data
 | 
 
-| Oppdag data og datakilder <value-stream>
+| Oppdag data og datakilder
 | 
 
-| Be  om tilganger og abonnementer <value-stream>
+| Be  om tilganger og abonnementer
 | 
 
-| Forespør og motta data <value-stream>
+| Forespør og motta data
 | 
 
-| Etabler avtaler og løsninger for datainnhenting <value-stream>
+| Etabler avtaler og løsninger for datainnhenting
 | 
 
-| Ta rede på behov for innhenting av data <value-stream>
+| Ta rede på behov for innhenting av data
 | 
 
-| Forbedre løsninger, sikkerhet og datakvalitet (konsument) <value-stream>
+| Forbedre løsninger, sikkerhet og datakvalitet (konsument)
 | 
 
 |===
