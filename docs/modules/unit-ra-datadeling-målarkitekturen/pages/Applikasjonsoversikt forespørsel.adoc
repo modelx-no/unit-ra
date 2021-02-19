@@ -121,5 +121,8 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
 
+| Kildedata
+| 
+
 |===
 
