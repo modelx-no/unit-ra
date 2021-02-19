@@ -73,9 +73,6 @@ En klient må forholde seg til
 | UiX
 | 
 
-| Kildedata
-| 
-
 | API Gateway hos dataeier / OAuth resource server
 | API gateway beskytter ressurser og monitorerer tilgang. Den håndhever tilgangsstyring ved å validere aksesstokens og utfører eventuell fin-granulert tilgangskontroll. Den håndhever også volumbegrenseninger og samler data om bruken av APIer (logging). 
 
@@ -96,9 +93,6 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
-
-| Kildedata
-| 
 
 | UiO
 | 
@@ -126,9 +120,6 @@ Noen må passe VELDIG godt på gatewayen og holder den oppdatert.
 
 Det må være et tydeligvalg om hvem (gateway eller API) har ansvar for sikkerhetsmessig.
 
-
-| Kildedata
-| 
 
 |===
 
