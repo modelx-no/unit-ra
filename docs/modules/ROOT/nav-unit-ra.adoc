@@ -8,6 +8,13 @@ ifeval::["{lang}" == "no"]
 * xref:unit-ra:ROOT:index.adoc[Om UNIT referansearkitekturer]
 * xref:unit-ra:Bøker:Referansearkitektur for deling av data i høyere utdanning og forsking.adoc[]
 
+
+** xref:main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
+** xref:main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
+** xref:main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
+** xref:main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
+** xref:main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]
+
 endif::[]
 // :lang: no <-----------
  
