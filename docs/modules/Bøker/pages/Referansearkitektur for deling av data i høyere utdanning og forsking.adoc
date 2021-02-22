@@ -16,14 +16,14 @@ endif::[]
 image:{imagepath}image1.jpeg[]
 
 ----
-Sat Feb 20 2021 23:33:05 GMT+0100 (CET)
-Erik Hagen 	erik.hagen@digdir.no
+Mon Feb 22 2021 16:13:02 GMT+0100 (CET)
 ----
 
 
 :leveloffset: +1
-include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Bakgrunn.adoc[]
-include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Målarkitekturen for datadeling i høyere utdanning og forskning.adoc[]
+include::main@unit-ra:unit-ra-datadeling-bakgrunn:page$Introduksjon.adoc[]
+include::main@unit-ra:unit-ra-datadeling-metode:page$Metode.adoc[]
+include::main@unit-ra:unit-ra-datadeling-målarkitekturen:page$Datadelingsplattformen og felles komponentene i den.adoc[]
 include::main@unit-ra:unit-ra-datadeling-forvaltning:page$Forvaltning av målarkitekturen.adoc[]
 include::main@unit-ra:unit-ra-datadeling-definisjoner:page$Vedlegg 1 - Definisjoner.adoc[]
 include::main@unit-ra:unit-ra-datadeling-issues:page$Vedlegg 2 - Behov for avklaringer og utfordringer i sektorens kontekst.adoc[]

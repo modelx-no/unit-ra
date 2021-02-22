@@ -83,7 +83,7 @@ Kompetanse på bruk av åpne data
 | Data-konsument
 | Den som innhenter eller mottar data fra andre aktører.
 
-| Innhent data
+| Collect data
 | 
 
 | Oppdag data og datakilder

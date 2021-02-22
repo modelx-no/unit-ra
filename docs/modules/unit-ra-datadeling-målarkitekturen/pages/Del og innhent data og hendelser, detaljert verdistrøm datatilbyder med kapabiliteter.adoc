@@ -109,14 +109,10 @@ Rutine for mottak av henvendelser om tilgang til data for å sikre at henvendels
 Konsumentene må dokumentere sitt formål og behandlingsgrunnlag, og argumentere for hvilke informasjonselementer de mener de skal ha tilgang til for det gitte formålet.
 
 | Datatilbyder
-| Tilbyder av data til andre aktører.
+| Tilbyder av data til andre aktører.  
 
-API Eiere  (kan eie Data som API gir tilgang til, eller system som tilbyr APIet)??
-
-Når virksomheten tilbyr åpne data, vil det være virksomheten som eier dataene. (men det bør vel definere et domen-eier innenfor virksomheten)
-
-Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansvarlig?) spør studenten om de gir samtykke til å gi tilgang til data om studenten som hen eier.
-
+Datatibyder har definisjonsrett og har rettigheter til å behandle data
+Datatilbyder kan sette sammen data som tilbyderen har til et dataprodukt som tilbys datakonsumenter gjennom et API
 
 | Del  data
 | 
@@ -124,8 +120,8 @@ Data eier på to nivå: f. eks. studieavdelingen (er ikke dette behandlingsansva
 | Tilrettelegg for dataoppdagelse og datadeling
 | 
 
-| Avgi data
-| 
+| Share data
+| "Del data (operativt)" handler om utveksling av data gjennom etablerte kanaler og iht. avtaler. Dette forutsetter også håndtering av avvik og ikke-tilsiktede hendelser.
 
 
 | Sett opp avtaler, løsninger og tilganger etter henvendelse
